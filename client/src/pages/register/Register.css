@@ -1,0 +1,59 @@
+.register {
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.2),
+        rgba(255, 255, 255, 0.2)
+      ),
+      url("https://cdn.pixabay.com/photo/2017/01/13/09/10/winter-1976703_640.jpg");
+    background-size: cover;
+  }
+  
+  .register-title {
+    font-size: 50px;
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .register-form > label {
+    margin: 10px 0px;
+    font-size: 26px;
+  }
+  
+  .register-input {
+    padding: 12px;
+    border: none;
+    background-color: white;
+  }
+  
+  .register-button {
+    margin-top: 20px;
+    background-color: teal;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  
+  .register-login-button {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    margin-top: 10px;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 9px;
+    padding: 10px;
+    color: white;
+    font-size: 17px;
+  }
+  
