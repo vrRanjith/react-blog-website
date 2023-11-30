@@ -6,5 +6,5 @@ b.next do "npm i" to install the dependencies present in the package.json
 2.This app uses mongoDB to store the data. so create a mongo atlas account.  
 3. once the account is created and confiured, copy paste the connect URL.  
 4. create a ".env file" under "api folder" and copy paste the mongo url as below,  
- MONG_URL = YOUR_MONGO_URL  
+MONG_URL = YOUR_MONGO_URL  
  
