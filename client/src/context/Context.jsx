@@ -1,8 +1,20 @@
 import { createContext, useEffect, useReducer } from "react";
 import Reducer from "./Reducer";
 
+const userData = localStorage.getItem("user");
+let parsedUser = null;
+
+try {
+    parsedUser = JSON.parse(userData);
+} catch (error) {
+    // Handle the parsing error, if needed
+    console.error("Error parsing user data from localStorage:", error);
+}
+
+
+
 const INITIAL_STATE = {
-    user: JSON.parse(localStorage.getItem("user")) || {},
+    user: parsedUser,
     isFetching: false,
     error:false
 };

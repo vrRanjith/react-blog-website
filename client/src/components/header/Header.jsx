@@ -9,7 +9,7 @@ function Header() {
       </div>
       <img
         className="header-image"
-        src="https://media.istockphoto.com/id/1301592032/photo/spring-beautiful-background-with-green-juicy-young-foliage-and-empty-wooden-table-in-nature.jpg?s=612x612&w=0&k=20&c=vw-rzeOg1IUODaey1Xg7n8rPTk8BjWi1FKDa_gtMlBY="
+        src="https://img.freepik.com/free-photo/border-green-leaves-yellow-with-copyspace_24972-499.jpg?size=626&ext=jpg&ga=GA1.1.238767090.1701343230&semt=ais"
         alt="background image"
       />
     </div>
