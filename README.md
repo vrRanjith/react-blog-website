@@ -1,5 +1,5 @@
 ﻿# react-blog-website    
- This website was buit using react.js and express.js.  
+This website was buit using react.js and express.js.  
 1. this app uses vite to create react app in client folder.  
 a.after creating using vite, install node_modules using "npm install"  
 b.next do "npm i" to install the dependencies present in the package.json   
